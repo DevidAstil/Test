@@ -19,7 +19,7 @@ $(document).ready(function(){
         ]
     })
 
-    var counter = new Date('aug 17 2022 16:30:00'); 
+    var counter = new Date('aug 18 2022 12:00:00'); 
     counter = new Date(counter); 
     $('#m').countdown({until: counter}); 
 })
