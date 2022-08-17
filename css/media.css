@@ -1,0 +1,139 @@
+@media(max-width:1000px){
+    .promo{
+        height: 100%;
+        padding-bottom: 50px;
+    }
+    .slick-slide{
+        opacity: 0;
+        transition: all .3s ease;
+    }
+    .slick-slide.slick-active{
+        opacity: 1;
+    }
+}
+@media(max-width:750px){
+    .promo_img img{
+        width: 150px;
+        height: 250px;
+    }
+    #myVideo{
+        width: 100%;
+        min-width: auto;
+        min-height: auto;
+        height: 100%;
+        object-fit: cover;
+    }
+    .promo_paragraph{
+        margin-bottom: 20px;
+    }
+    .promo_content{
+        height: auto;
+    }
+    .compound_inner{
+        width: 525px;
+    }
+    .presentation_img img{
+        width: 290px;
+        height: 320px;
+    }
+    .order_top{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .order_bottom{
+        flex-direction: column;
+        width: 100%;
+    }
+    .order_form{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .form-input{
+        width: 100%;
+    }
+    .form-btn{
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .order{
+        padding-bottom: 50px;
+    }
+    .form-input-focus{
+        right: 0;
+    }
+}
+@media(max-width:600px){
+    .promo_content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: initial;
+        height: 500px;
+    }
+    .promo_list{
+        position: static;
+    }
+    .promo_btn{
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+    .compound_items{
+        display: none;
+    }
+    .compound_mobile{
+        display:block;
+        overflow-x: scroll;
+    }
+    .compound_inner{
+        display: block;
+        width: 100%;
+    }
+    .compound_items-mobile{
+        display: flex;
+        width: 750px;
+        justify-content: space-between;
+    }
+    .compound_img img{
+        margin: 0 auto;
+        margin-bottom: 40px;
+        display: block;
+    }
+    .presentation_content{
+        flex-direction: column;
+    }
+    .presentation_content-text{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .presentation_list-scroll{
+        overflow-x: scroll;
+    }
+    .presentation_list{
+        width: 650px;
+    }
+    .presentation_img img{
+        max-width: 300px;
+        width: 100%;
+        height: auto;
+    }
+    .order_price,.order_count{
+        width: 70%;
+        height: 100px;
+    }
+    .is-countdown{
+        margin-top: 30px;
+    }
+    .order_form{
+        width: 85%;
+    }
+}
+@media(max-width:400px){
+    .promo_content{
+        height: 550px;
+    }
+    .reviews_slide{
+        width: 290px !important;
+        height: auto;
+    }
+}
